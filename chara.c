@@ -20,9 +20,9 @@ if(ch==DLE)
 arr[i++]=DLE;
 printf("DLE");
 }
-elseif(ch==2)
+else if(ch==2)
 printf("STX");
-elseif(ch==3)
+else if(ch==3)
 printf("ETX");
 else
 printf("%c",ch);
@@ -35,9 +35,9 @@ for(j=0;j<i;j++)
 {
 if(arr[j]==DLE)
 printf("DLE");
-elseif(arr[j]==STX)
+else if(arr[j]==STX)
 printf("STX");
-elseif(arr[j]==ETX)
+else if(arr[j]==ETX)
 printf("ETX");
 else
 printf("%c",arr[j]);
@@ -50,9 +50,9 @@ if(arr[j]==DLE)
 printf("DLE");
 j++;
 }
-elseif(arr[j]==STX)
+else if(arr[j]==STX)
 printf("STX");
-elseif(arr[j]==ETX)
+else if(arr[j]==ETX)
 printf("ETX");
 else
 printf("%c",arr[j]);
