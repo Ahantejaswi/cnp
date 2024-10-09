@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 struct node
 {
@@ -10,7 +9,7 @@ struct edge
 int first_node,second_node,selected,distance;
 }e[100];
 int edge_count=0;
-void getdata(intindex,int total)
+void getdata(int index,int total)
 {
 int i;
 for(i=index;i<total;i++)
@@ -35,7 +34,7 @@ e[i].selected=-1;
 }
 void sort()
 {
-inti,j;
+int i,j;
 struct edge temp;
 for(i=0;i<edge_count-1;i++)
 for(j=0;j<edge_count-i-1;j++)
